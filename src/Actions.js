@@ -1,7 +1,7 @@
 import { redirect } from "react-router-dom"
 
 const URL = "https://project-4-backend-weapons2.onrender.com/weapons/"
-//const URL = "https://coverletter-backend.onrender.com/coverletters/"
+
 
 export const createAction = async ({request}) => {
     // get the form data
@@ -17,19 +17,6 @@ export const createAction = async ({request}) => {
         weapon_description : formData.get("weapon_description"),
         weapon_state : formData.get("weapon_state")
     }
-
-    // construct request body
-    /*const newLetter = {
-        name: formData.get("name"),
-        position: formData.get("position"),
-        date: formData.get("date"),
-        company: formData.get("company"),
-        yoe: formData.get("yoe"),
-        skill: formData.get("skill"),
-        expertise: formData.get("expertise"),
-        passion: formData.get("passion"),
-        products: formData.get("products")
-    }*/
 
     // send request to backend
     await fetch(URL, {
@@ -61,21 +48,9 @@ export const updateAction = async ({request, params}) => {
         weapon_description : formData.get("weapon_description"),
         weapon_state : formData.get("weapon_state")
     }
-
+    console.log(updatedweapons)
     // construct request body
-    /*const updatedLetter = {
-        name: formData.get("name"),
-        position: formData.get("position"),
-        date: formData.get("date"),
-        company: formData.get("company"),
-        yoe: formData.get("yoe"),
-        skill: formData.get("skill"),
-        expertise: formData.get("expertise"),
-        passion: formData.get("passion"),
-        products: formData.get("products")
-    }*/
-
-    // send request to backend
+    
     await fetch(URL + `${id}/`, {
         method: "put",
         headers: {

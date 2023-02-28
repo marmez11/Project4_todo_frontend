@@ -41,31 +41,31 @@ export default function New() {
                     border-2 border-black-1000"
                     id="Weapon_name_input"
                     type="text"
-                    name="weapon name"
+                    name="weapon_name"
                     placeholder="Enter Weapon Name Here......"
                   />
                   <input
                     className="max-sm:max-w-[18rem] sm:max-w-[18rem] w-full h-8 rounded-md p-1 border-2 border-black-1000"
                     type="text"
-                    name="weapon type"
+                    name="weapon_type"
                     placeholder="Enter Weapon Type Here......"
                   />
                   <input
                     className="max-sm:max-w-[18rem] sm:max-w-[18rem] w-full h-8 rounded-md p-1 border-2 border-black-1000"
                     type="text"
-                    name="weapon serial number"
+                    name="weapon_serial_number"
                     placeholder="Enter Weapon Serial Number here...."
                   />
                   <input
                     className="max-sm:max-w-[18rem] sm:max-w-[18rem] w-full h-8 rounded-md p-1 border-2 border-black-1000"
                     type="text"
-                    name="weapon origin country"
+                    name="weapon_origin_country"
                     placeholder="Enter Weapon Origin Country here...."
                   />
                   <input
                     className="max-sm:max-w-[18rem] sm:max-w-[18rem] w-full h-8 rounded-md p-1 border-2 border-black-1000"
                     type="text"
-                    name="Weapon_Caliber"
+                    name="weapon_caliber"
                     placeholder="Write Weapon Caliber here...."
                   />
                   <input

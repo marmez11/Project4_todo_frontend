@@ -39,41 +39,52 @@ export default function Show() {
             method="post"
           >
             <input
-              className="w-6/12 h-8 p-2 rounded-md my-2"
-              type="text"
-              name="weapon_name"
-              placeholder="Enter Weapon Name Here......"
-            />
-            <input
-              className="w-6/12 h-8 p-2 rounded-md my-2"
-              type="text"
-              name="position"
-              placeholder="Enter Weapon Type Here....."
-            />
-            <input
-              className="w-6/12 h-8 p-2 rounded-md my-2"
-              type="text"
-            name="weapon origin country"
-            placeholder="Write Weapon Origin Country here...."
-            />
-            <input
-              className="w-6/12 h-8 p-2 rounded-md my-2"
-              type="text"
-              name="weapon caliber"
-              placeholder="Write Weapon Caliber here...."
-            />
-            <input
-              className="w-6/12 h-8 p-2 rounded-md my-2"
-              type="text"
-              name="weapon description"
-              placeholder="Write Weapon Description here...."
-            />
-            <input
-              className="w-6/12 h-8 p-2 rounded-md my-2"
-              type="text"
-              name="weapon state"
-              placeholder="Write Weapon State here...."
-            />
+                    className="max-sm:max-w-[18rem] sm:max-w-[18rem] w-full 
+                    h-8 
+                    rounded-md 
+                    p-1
+                    border-2 border-black-1000"
+                    id="Weapon_name_input"
+                    type="text"
+                    name="weapon_name"
+                    placeholder="Enter Weapon Name Here......"
+                  />
+                  <input
+                    className="max-sm:max-w-[18rem] sm:max-w-[18rem] w-full h-8 rounded-md p-1 border-2 border-black-1000"
+                    type="text"
+                    name="weapon_type"
+                    placeholder="Enter Weapon Type Here......"
+                  />
+                  <input
+                    className="max-sm:max-w-[18rem] sm:max-w-[18rem] w-full h-8 rounded-md p-1 border-2 border-black-1000"
+                    type="text"
+                    name="weapon_serial_number"
+                    placeholder="Enter Weapon Serial Number here...."
+                  />
+                  <input
+                    className="max-sm:max-w-[18rem] sm:max-w-[18rem] w-full h-8 rounded-md p-1 border-2 border-black-1000"
+                    type="text"
+                    name="weapon_origin_country"
+                    placeholder="Enter Weapon Origin Country here...."
+                  />
+                  <input
+                    className="max-sm:max-w-[18rem] sm:max-w-[18rem] w-full h-8 rounded-md p-1 border-2 border-black-1000"
+                    type="text"
+                    name="weapon_caliber"
+                    placeholder="Write Weapon Caliber here...."
+                  />
+                  <input
+                    className="max-sm:max-w-[18rem] sm:max-w-[18rem] w-full h-8 rounded-md p-1 border-2 border-black-1000"
+                    type="text"
+                    name="weapon_description"
+                    placeholder="Write Weapon Description here...."
+                  />
+                  <input
+                    className="max-sm:max-w-[18rem] sm:max-w-[18rem] w-full h-8 rounded-md p-1 border-2 border-black-1000"
+                    type="text"
+                    name="weapon_state"
+                    placeholder="Write Weapon State here...."
+                  />
 
             <button className="bg-white text-black font-semibold w-44 h-8 my-2 rounded
             min-[280px]:text-sm lg:text-base">
